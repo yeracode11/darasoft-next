@@ -88,7 +88,6 @@ export default function Process() {
                   <motion.div
                     className="w-20 h-20 bg-gradient-to-br from-primary-600 to-primary-700 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg"
                     whileHover={{ scale: 1.1, rotate: 360 }}
-                    transition={{ duration: 0.5 }}
                     initial={{ scale: 0, rotate: -180 }}
                     whileInView={{ scale: 1, rotate: 0 }}
                     viewport={{ once: true }}
